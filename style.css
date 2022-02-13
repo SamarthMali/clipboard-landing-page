@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
+
+:root{
+    --Strong-Cyan: hsl(171, 66%, 44%);
+    --Light-Blue: hsl(233, 100%, 69%);
+    --Dark-Grayish-Blue: hsl(210, 10%, 33%);
+    --Grayish-Blue: hsl(201, 11%, 66%);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+body p{
+    font-size: 1rem;
+}
+
+body{
+    background-image: url(images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+/* Hero Section */
+
+
+.hero-section{
+    text-align: center;
+    margin-top: 10%;
+}
+
+.logo{
+    margin-bottom: 35px;
+}
+
+
+.Hero-content{
+    margin-bottom: 50px;
+}
+
+.Hero-content h1{
+    font-size: 2.2rem;
+    color: var(--Dark-Grayish-Blue);
+    margin-bottom: 15px;
+}
+
+.Hero-content p{
+    font-size: 1rem;
+    color: var(--Grayish-Blue);
+    display: inline-block;
+    width: 35%;
+    line-height: 25px;
+}
+
+.download-btn{
+    display: inline-block;
+}
+.download-btn a{
+    margin: 20 auto;
+    margin: 10px;
+    padding: 14px 30px;
+    color: white    ;
+}
+
+.download-btn a:first-child{
+    background-color: var(--Strong-Cyan);
+    border-radius: 30px;
+    text-decoration: none;
+    box-shadow: 0px 3px 0px hsl(171, 70%, 39%);
+}
+
+.download-btn a:last-child{
+    background-color: var(--Light-Blue);
+    border-radius: 30px;
+    text-decoration: none;
+    box-shadow: 0px 3px 0px hsl(233, 73%, 58%);
+}
+
+.hero-second-content{
+    margin-top: 7%;
+}
+.hero-second-content h1{
+    font-size: 1.8rem;
+    color: var(--Dark-Grayish-Blue);
+    margin-bottom: 15px;
+}
+
+.hero-second-content p{
+    font-size: 1rem;
+    color: var(--Grayish-Blue);
+    display: inline-block;
+    width: 40%;
+    line-height: 25px;
+}
+
+
+
+/* Second Section */
+
+.second-section{
+    display: flex;
+    gap: 3%;
+    margin-top: 80px;
+    justify-content: center;    
+}
+
+.second-section .img img{
+    width: 100%;
+}
+
+.second-content h2{
+    line-height: 2.1;
+    font-size: 1.3rem;
+    color: var(--Dark-Grayish-Blue);
+}
+.second-content p{
+    line-height: 1.5;
+    color: var(--Grayish-Blue);
+}
+.second-content{
+    inline-size: 437px;
+    overflow-wrap: break-word;
+    padding: 46px;
+}
+
+.s-text{
+    margin-bottom: 25px;
+}
+
+
+/* Third Section */
+.third-section{
+text-align: center;
+margin-top: 6%;
+}
+
+
+.third-section h1{
+    font-size: 1.8rem;
+    color: var(--Dark-Grayish-Blue);
+    margin-bottom: 15px;
+}
+.third-section p{
+    font-size: 1rem;
+    color: var(--Grayish-Blue);
+    display: inline-block;
+    width: 40%;
+    line-height: 25px;
+}
+
+.third-img img{
+    text-align: center;
+    width: 60%;
+}
+
+.third-img{
+    margin-top: 66px;
+}
+
+
+
+/* fourth section */
+
+.fourth-section{
+    text-align: center;
+}
+.fourth-section h1{
+    font-size: 1.8rem;
+    color: var(--Dark-Grayish-Blue);
+    margin-bottom: 15px;
+}
+.fourth-section p{
+    font-size: 1rem;
+    color: var(--Grayish-Blue);
+    display: inline-block;
+    width: 90%;
+    line-height: 30px;
+}
+
+.fcard {
+    display: inline-block;
+    width: 425px;
+}
+
+.fcard img{
+    margin-bottom: 25px;
+}
+
+
+
+.fourth-section-card{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 66px;
+    justify-content: center;
+    flex-grow: 0;
+}
+
+
+/* fifth section */
+.client{
+    margin-top: 180px;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 60px;
+}
+
+
+
+
+.sixth-section{
+    text-align: center;
+}
+
+.sixth-section .title h1{
+    font-size: 1.8rem;
+    color: var(--Dark-Grayish-Blue);
+    margin-bottom: 15px;
+}
+
+.sixth-section .title p{
+    font-size: 1rem;
+    color: var(--Grayish-Blue);
+    display: inline-block;
+    width: 35%;
+    line-height: 25px;
+    margin-bottom: 70px;
+}
+
+
+.sixth-section{
+    margin-top: 10%;
+}
+
+
+
+
+
+
+
+
+/* footer */
+
+footer{
+    background-color: #F5F6F8;
+    padding: 2rem 0;
+    margin-top: 100px;
+}
+footer .footer-section{
+    display: flex;
+    align-items: center;
+}
+.footer-logo{
+    flex: 0 0 18%;
+}
+.social-icons{
+    flex : 0 0 14%;
+}
+.footer-logo img{
+    width: 60px;
+}
+.footer-menu{
+    flex:1;
+    display: flex;
+}
+.f-menu{
+    width: 25%;
+}
+.f-menu a{
+    display: block;
+    line-height: 2em;
+    text-decoration: none;
+    color: var(--Grayish-Blue);
+}
+
+.social-icons a{
+    display: block;
+    float: right;
+    width:33.33%;
+    text-align: right;
+}
+
+
